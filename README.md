@@ -8,6 +8,8 @@ https://tictactoe.thuraaung.repl.run
 
 ​ဆော့တဲ့အခါ မိမိအလှည့်​ရောက်ရင် ကိုယ်လိုချင်တဲ့ အကွက် အမှတ်ကို ရိုက်​ပေးရပါမယ်။
 
+![Image description](https://github.com/ThuraAung1601/tic_tac_toe/blob/master/board.jpg)
+
 တကယ်လို့ စက်ထဲမှာ Python ရှိရင်
 python runner.py
 
