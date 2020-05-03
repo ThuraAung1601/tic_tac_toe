@@ -1,5 +1,6 @@
 import math
 import time
+import random
 from tic_tat_toe import TicTatToe
 from players import HumanPlayer,RandomComputerPlayer,IntelligentComputerPlayer
 def play(game,X,O,playing = True):
@@ -7,7 +8,7 @@ def play(game,X,O,playing = True):
         game.printBoardNums()
     #show the board format
 
-    marker = 'X'
+    marker = random.choice(('X','O'))
     while game.emptyPos():
         if marker == 'O':
             position = O.makeMove(game)
